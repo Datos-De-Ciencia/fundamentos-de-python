@@ -8,8 +8,7 @@ Notebook introductorio de Python para ciencia de datos: tipos de datos, operacio
 fundamentos-de-python/
 ├── README.md
 ├── pyproject.toml
-└── bloque-1-python-basico/
-    └── fundamentos_python.ipynb
+└── fundamentos_python.ipynb
 ```
 
 ## Requisitos previos
@@ -96,7 +95,7 @@ El notebook sigue este formato:
 
 ## Contenido
 
-- `bloque-1-python-basico/fundamentos_python.ipynb` — Tipos de datos, variables, control de flujo, loops, funciones y librerías
+- `fundamentos_python.ipynb` — Tipos de datos, variables, control de flujo, loops, funciones y librerías
 
 ## Citar este trabajo
 
