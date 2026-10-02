@@ -1,7 +1,10 @@
 [project]
-name = "datos-de-ciencia-fundamentos"
+name = "fundamentos-de-python"
 version = "0.1.0"
-description = "Add your description here"
+description = "Notebook introductorio de Python para ciencia de datos (Datos de Ciencia)"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ipykernel",
+    "numpy",
+]

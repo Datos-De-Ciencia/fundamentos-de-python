@@ -1,32 +1,20 @@
-# Datos de Ciencia — Fundamentos de Data Science/ML
+# Datos de Ciencia — Fundamentos de Python
 
-Series progresivas de notebooks sobre fundamentos de Data Science, Machine Learning e Ingeniería de ML, usando datasets científicos reales como punto de partida.
-
-Cada bloque cubre un dominio científico distinto (calidad del aire, epidemiología, etc.) y demuestra que los mismos problemas que resuelven investigadores en ciencia son los que la industria paga por resolver: detección en bajo SNR, inferencia en datos escasos e irregulares, reproducibilidad y escalabilidad.
+Notebook introductorio de Python para ciencia de datos: tipos de datos, operaciones matemáticas, control de flujo, loops, funciones e importación de librerías. Está pensado para personas sin experiencia previa en programación y es el punto de partida de las series del canal.
 
 ## Estructura del repositorio
 
 ```
-datos-de-ciencia-fundamentos/
+fundamentos-de-python/
 ├── README.md
 ├── pyproject.toml
-├── bloque-1-python-basico/
-│   ├── 01_fundamentos_python.ipynb
-│   ├── 02_numpy_arrays.ipynb
-│   ├── 03_pandas_limpieza.ipynb
-│   └── 04_visualizacion.ipynb
-├── bloque-2-estadistica-probabilidad/
-│   ├── 05_eda_descriptiva.ipynb
-│   ├── 06_probabilidad_bayes.ipynb
-│   ├── 07_hipotesis_tests.ipynb
-│   └── 08_correlacion_causalidad.ipynb
-└── bloque-3-ml-supervisado/
-    └── (próximamente)
+└── bloque-1-python-basico/
+    └── fundamentos_python.ipynb
 ```
 
 ## Requisitos previos
 
-Necesitas tener Python 3.9+ instalado. Aquí hay tutoriales para configurar tu ambiente:
+Necesitas tener Python 3.12+ instalado. Aquí hay tutoriales para configurar tu ambiente:
 
 - [Cómo instalar Conda (Miniconda)](https://youtu.be/TJor7z8g8FA?si=7-VUSQJiew6Hu_gW)
 - [VS Code + Jupyter Notebooks](https://youtu.be/rL1usXq4bgE?si=2b5REnUzVBMDxWfF)
@@ -38,8 +26,8 @@ Necesitas tener Python 3.9+ instalado. Aquí hay tutoriales para configurar tu a
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/DatosDeCiencia-LAT/datos-de-ciencia-fundamentos.git
-cd datos-de-ciencia-fundamentos
+git clone https://github.com/DatosDeCiencia-LAT/fundamentos-de-python.git
+cd fundamentos-de-python
 
 # Crear el ambiente
 uv sync
@@ -54,11 +42,11 @@ source .venv/bin/activate  # En Linux/Mac
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/DatosDeCiencia-LAT/datos-de-ciencia-fundamentos.git
-cd datos-de-ciencia-fundamentos
+git clone https://github.com/DatosDeCiencia-LAT/fundamentos-de-python.git
+cd fundamentos-de-python
 
 # Crear el ambiente desde pyproject.toml
-conda create -n datos-de-ciencia python=3.9
+conda create -n datos-de-ciencia python=3.12
 conda activate datos-de-ciencia
 
 # Instalar dependencias
@@ -89,11 +77,11 @@ Ventajas:
 jupyter notebook
 ```
 
-Luego navega a la carpeta del proyecto y abre el notebook deseado.
+Luego navega a la carpeta del proyecto y abre el notebook.
 
 ## Estructura de los notebooks
 
-Cada notebook sigue este formato:
+El notebook sigue este formato:
 
 1. **Header:** Título, autor, descripción y dataset
 2. **Sección 0:** Prerrequisitos y setup
@@ -106,25 +94,17 @@ Cada notebook sigue este formato:
 2. **Personas aprendiendo Data Science/ML** para entrar o avanzar en industria
 3. **Desarrolladores** que quieren entender cómo los científicos resuelven problemas de datos
 
-## Contenido disponible
+## Contenido
 
-### Bloque 1 — Fundamentos de Python y manejo de datos
-Dominio: Calidad del aire (OpenAQ)
-
-- `01_fundamentos_python.ipynb` — Tipos de datos, variables, control de flujo, loops, funciones y librerías
-
-### Bloque 2 — Estadística y Probabilidad (próximamente)
-Dominio: Vigilancia epidemiológica
-
-### Bloque 3 — Machine Learning Supervisado (próximamente)
+- `bloque-1-python-basico/fundamentos_python.ipynb` — Tipos de datos, variables, control de flujo, loops, funciones y librerías
 
 ## Citar este trabajo
 
 Si usas estos notebooks en tu trabajo o investigación, por favor cita:
 
 ```
-Agudelo Ortiz, J. E. (2026). Datos de Ciencia — Fundamentos de Data Science/ML.
-GitHub: https://github.com/DatosDeCiencia-LAT/datos-de-ciencia-fundamentos
+Agudelo Ortiz, J. E. (2026). Datos de Ciencia — Fundamentos de Python.
+GitHub: https://github.com/DatosDeCiencia-LAT/fundamentos-de-python
 ```
 
 ## Licencia
@@ -144,4 +124,4 @@ Las contribuciones son bienvenidas. Si encuentras errores, tienes sugerencias o 
 
 ---
 
-*Última actualización: julio 2026*
+*Última actualización: octubre 2026*
