@@ -25,7 +25,7 @@ Necesitas tener Python 3.12+ instalado. Aquí hay tutoriales para configurar tu 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/DatosDeCiencia-LAT/fundamentos-de-python.git
+git clone https://github.com/Datos-De-Ciencia/fundamentos-de-python.git
 cd fundamentos-de-python
 
 # Crear el ambiente
@@ -41,7 +41,7 @@ source .venv/bin/activate  # En Linux/Mac
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/DatosDeCiencia-LAT/fundamentos-de-python.git
+git clone https://github.com/Datos-De-Ciencia/fundamentos-de-python.git
 cd fundamentos-de-python
 
 # Crear el ambiente desde pyproject.toml
@@ -103,7 +103,7 @@ Si usas estos notebooks en tu trabajo o investigación, por favor cita:
 
 ```
 Agudelo Ortiz, J. E. (2026). Datos de Ciencia — Fundamentos de Python.
-GitHub: https://github.com/DatosDeCiencia-LAT/fundamentos-de-python
+GitHub: https://github.com/Datos-De-Ciencia/fundamentos-de-python
 ```
 
 ## Licencia
@@ -113,7 +113,7 @@ Este proyecto está bajo licencia [Creative Commons Attribution 4.0 Internationa
 ## Contacto y redes
 
 - **YouTube:** [@Datos.DeCiencia](https://www.youtube.com/@Datos.DeCiencia)
-- **GitHub:** [DatosDeCiencia-LAT](https://github.com/DatosDeCiencia-LAT)
+- **GitHub:** [Datos-De-Ciencia](https://github.com/Datos-De-Ciencia)
 - **LinkedIn:** [Juan Esteban Agudelo Ortiz](https://linkedin.com/in/juanessao)
 - **Instagram:** [@datos.deciencia](https://instagram.com/datos.deciencia)
 
