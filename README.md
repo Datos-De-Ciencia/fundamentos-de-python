@@ -15,9 +15,9 @@ fundamentos-de-python/
 
 Necesitas tener Python 3.12+ instalado. Aquí hay tutoriales para configurar tu ambiente:
 
-- [Cómo instalar Conda (Miniconda)](https://youtu.be/TJor7z8g8FA?si=7-VUSQJiew6Hu_gW)
+- [Cómo instalar Anaconda y Jupyter](https://youtu.be/YzOLOlH1jQk?si=2hFk6aAh8gCoMvuo)
 - [VS Code + Jupyter Notebooks](https://youtu.be/rL1usXq4bgE?si=2b5REnUzVBMDxWfF)
-- [Instalación de UV](https://youtu.be/YzOLOlH1jQk?si=2hFk6aAh8gCoMvuo)
+- [Instalación de UV](https://youtu.be/TJor7z8g8FA?si=QT2XVKeC29dYyDts)
 
 ## Configuración del ambiente
 
